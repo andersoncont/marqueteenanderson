@@ -1,0 +1,55 @@
+.contenedor{
+
+    grid-template-columns: 370px 370px 370px 370px 370px ;
+    grid-template-rows: 200px 50px 700px 50px;
+    display: grid;
+    grid-template-areas:
+    'enc enc enc enc enc'
+    'enl enl enl enl enl'
+    'mis mis vis vis foto'
+    'pie pie pie pie pie'
+    ;
+}
+.encabezado{ 
+    grid-area: enc;
+    
+}
+.enlaces{
+    grid-area: enl;
+    background-color: darkgoldenrod;
+    text-align: center;
+}
+.mision{
+    grid-area: mis;
+    background-color:deepskyblue;
+}
+.vision{
+    grid-area: vis;
+    background-color: khaki;
+}
+.fotos{
+    grid-area: foto;
+    background-color: darkseagreen;
+}
+
+footer{
+    grid-area: pie;
+    background-color: black;
+}
+img{
+    width: 1850px;
+    height: 990px;
+    }
+
+a{
+    text-decoration:dashed;
+    color: black;
+}
+#img3{
+    width: 370px;
+    height: 100%;
+}
+#producto{
+    height: 175px;
+    width: 175px;
+}

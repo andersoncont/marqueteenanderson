@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout con Grid</title>
+    <link rel="stylesheet" href="css/index3.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header"><img src="img/Brown Natural Wood Slice Photo Album Cover.png" alt=""></header>
+        <nav class="nav">
+            <a href="index.html">Inicio</a> 
+            <a href="index2.html">pagina 2</a>
+            <a href="index3.html">pagina 3</a>
+            <a href="index4.html">pagina 4</a>
+        </nav>
+        <section class="fourP">
+            <h2> Diagrama de las 4p</h2>
+            <a href="https://docs.google.com/presentation/d/1FQc7QxThm5LAT1qHRiMG1W1MB10eeNtoVlPrCuVbSno/edit#slide=id.g2d37bdf4ad2_2_0"><img id="foda" src="img/4p.png" alt=""></a></section>
+        <section class="foda">
+            <h2>Foda</h2>
+           <a href="https://docs.google.com/presentation/d/1lqsvNA4PVR5xVQ7yxXdOvACamg7s_xp_ppAJ3aA9bOM/edit#slide=id.g1183dc12911_0_1"> <img id="foda" src="img/analisis de foda.png" alt=""></a></section>
+        <section class="form">
+            <h2>Formulario de producto</h2>
+            <form action="/submit" method="POST">
+                
+                <label for="name">Nombre Completo:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+            
+            
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+            
+                <label for="quantity">Cantidad de Lámparas:</label><br>
+                <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+             
+                <label for="payment">Método de Pago:</label><br>
+                <select id="payment" name="payment" required>
+                    <option value="tarjeta">Tarjeta de Crédito/Débito</option>
+                    <option value="paypal">PayPal</option>
+                </select><br><br>
+            
+                <button type="submit">Realizar Pedido</button>
+            </form>
+            
+        </section>
+        <footer class="footer">Pie de página</footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+
+
+.container {
+    display: grid;
+    grid-template-columns: 333px 333px 333px 333px 333px 333px;
+    grid-template-rows:200px 50px 700px 50px ;
+    grid-template-areas: 
+        "header header header header header header"
+        "nav nav nav nav nav nav"
+        "fourP fourP foda foda form form"
+        "footer footer footer footer footer footer";
+    height: 100vh;
+   
+}
+
+.header {
+    grid-area: header;
+    background-color: yellow;
+    text-align: center;
+  
+}
+
+.nav {
+    grid-area: nav;
+    background-color: lightgreen;
+    text-align: center;
+ 
+}
+
+.fourP {
+    grid-area: fourP;
+    background-color: #ffcc80;
+  
+    text-align: center;
+    
+}
+
+.foda {
+    grid-area: foda;
+    background-color: #b3cde0;
+   
+    text-align: center;
+}
+
+.form {
+    grid-area: form;
+    background-color: #ffcc80;
+   
+    text-align: center;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    text-align: center;
+   
+}
+img{
+    width: 1998px;
+    height: 990px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+#foda{
+    height: 550px;
+    width: 550px;
+    
+}
